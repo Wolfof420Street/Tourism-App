@@ -12,8 +12,8 @@ class App extends StatelessWidget {
 
         ),
           textTheme: TextTheme(
-            title: TItleTextStyle(),
-            body1: Body1TextStyle()
+            title: TitleTextStyle,
+            body1: Body1TextStyle
           )
         ),
     );
