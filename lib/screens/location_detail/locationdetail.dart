@@ -6,13 +6,17 @@ import 'package:flutterdemo/models/location.dart';
 
 
 class LocationDetail extends StatelessWidget {
+  final _locationId;
 
+  LocationDetail(this._locationId);
 
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    final locations = Location.fetchAll();
-    final location = locations.first;
+
+    final location = Location.fetchbyId(_locationId);
+
+
 
 
     return Scaffold(
