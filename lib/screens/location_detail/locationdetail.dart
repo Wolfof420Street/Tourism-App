@@ -19,9 +19,9 @@ class LocationDetail extends StatelessWidget {
       children:
         [
           ImageBanner("assets/images/wallpaper.jpg"),
-          TextSection(Colors.blue),
-          TextSection(Colors.red),
-          TextSection(Colors.green)
+          TextSection('summary', 'sth' ),
+          TextSection('summary', 'sth'),
+          TextSection('summary', 'sth')
     ],
     )
 
